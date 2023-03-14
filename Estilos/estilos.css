@@ -1,0 +1,36 @@
+#Nvidia{
+    padding: 3%;
+    font-family: "Roboto Slab, sans-serif";
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #4E9F3D;
+}
+
+#CajaHeader{
+    background-color: #191A19;
+}
+
+.Encabezado{
+    font-family: "Roboto Slab, sans-serif";
+    color: #4E9F3D;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.MargenEncabezado{
+    margin: 0px 30px;
+}
+
+.iconos1{
+    color: #4E9F3D;
+    margin-left: 5px;
+}
+
+.iconos1:hover{
+    color: #1E5128;
+}
+
+#Enunciado1{
+    padding-left: 5%;
+    padding-top: 4%;
+}
