@@ -17,6 +17,10 @@
     font-size: 1.5rem;
 }
 
+.Encabezado:hover{
+    color: #4E9F3D;
+}
+
 .MargenEncabezado{
     margin: 0px 30px;
 }
@@ -31,6 +35,24 @@
 }
 
 #Enunciado1{
-    padding-left: 5%;
     padding-top: 4%;
+    color: #D8E9A8;
+    padding-bottom: 10%;
+}
+
+#seccion1{
+    background-color: #191A19;
+    padding-bottom: 15%;
+}
+
+#seccion2{
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
+.parrafo1{
+    font-family: "Roboto Slab, sans-serif";
+    color:  #191A19;
+    font-weight: 200;
+    font-size: 1.5rem;
 }
