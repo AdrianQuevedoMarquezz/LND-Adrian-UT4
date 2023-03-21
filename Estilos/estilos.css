@@ -1,8 +1,8 @@
 #Nvidia{
     padding: 3%;
-    font-family: "Roboto Slab, sans-serif";
+    font-family: "Kanit", "sans-serif";
     font-size: 2.5rem;
-    font-weight: 300;
+    font-weight: 500;
     color: #4E9F3D;
 }
 
@@ -11,9 +11,9 @@
 }
 
 .Encabezado{
-    font-family: "Roboto Slab, sans-serif";
+    font-family: "Kanit", "sans-serif";
     color: #4E9F3D;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.5rem;
 }
 
@@ -35,24 +35,45 @@
 }
 
 #Enunciado1{
+    font-family: "Kanit", "sans-serif";
+    font-weight: 300;
     padding-top: 4%;
     color: #D8E9A8;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 #seccion1{
     background-color: #191A19;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
 }
 
 #seccion2{
     padding-bottom: 4%;
     padding-top: 4%;
+    background-color: #191A19;
 }
 
 .parrafo1{
-    font-family: "Roboto Slab, sans-serif";
-    color:  #191A19;
-    font-weight: 200;
+    font-family: "Kanit", "sans-serif";
+    color: #D8E9A8;
+    font-weight: 300;
     font-size: 1.5rem;
+}
+
+p{
+    color: white;
+    font-family: "Kanit", "sans-serif";
+}
+
+.TituloCarrusel{
+    color: white;
+    font-family: "Kanit", "sans-serif"
+}
+
+.ImagenesCarrusel{
+    padding-bottom: 2%;
+}
+
+.ColorHamburguesa{
+    background-color: #1E5128;
 }
