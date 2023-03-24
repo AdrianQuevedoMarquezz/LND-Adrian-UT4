@@ -7,7 +7,7 @@
 }
 
 #CajaHeader{
-    background-color: #191A19;
+    background-color: black;
 }
 
 .Encabezado{
@@ -43,14 +43,14 @@
 }
 
 #seccion1{
-    background-color: #191A19;
+    background-color: black;
     padding-bottom: 10%;
 }
 
 #seccion2{
     padding-bottom: 4%;
     padding-top: 4%;
-    background-color: #191A19;
+    background-color: black;
 }
 
 .parrafo1{
@@ -90,4 +90,25 @@ p{
     padding-bottom: 3%;
     font-family: "Kanit", "sans-serif";
     font-weight: 300;
+}
+
+#footer{
+    background-color: black;
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
+.redes{
+    color: #4E9F3D;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#seccion3{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#copyright{
+    font-size: 14px;
 }

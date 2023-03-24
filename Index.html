@@ -19,7 +19,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     
     <!-- Encabezado -->
-    <header>
+    <header id="header">
         <div class="container-fluid" id="CajaHeader">
           <nav class="navbar-expand-xl navbar navbar-brand">
                 <a href="file:///C:/Users/Adrian%20Quevedo/Documents/GitHub/LND-Adrian-UT4/Index.html" class="nav-link" id="Nvidia">Nvidia</a>
@@ -30,7 +30,7 @@
                         <li class="navbar-item MargenEncabezado"><a href="#seccion2" class="nav-link Encabezado">Sobre nosotros <i class="fa-solid fa-person iconos1"></i></a></li>
                         <li class="navbar-item MargenEncabezado"><a href="#seccion1" class="nav-link Encabezado">Productos <i class="fa-solid fa-shop iconos1"></i></a></li>
                         <li class="navbar-item MargenEncabezado"><a href="#seccion3" class="nav-link Encabezado">Destacados <i class="fa-solid fa-tag iconos1"></i></a></li>
-                        <li class="navbar-item MargenEncabezado"><a href="#seccion4" class="nav-link Encabezado">Ayuda <i class="fa-solid fa-question iconos1"></i></a></li>
+                        <li class="navbar-item MargenEncabezado"><a href="#footer" class="nav-link Encabezado">Ayuda <i class="fa-solid fa-question iconos1"></i></a></li>
                     </ul>
                 </div>
             </nav>
@@ -43,17 +43,17 @@
         <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active text-center">
-              <img src="Imagenes/Serie 1000.png" class="d-block ImagenesCarrusel" alt="..." width="300px" height="300px">
+              <img src="Imagenes/Serie 1000.png" class="ImagenesCarrusel" alt="..." width="300px" height="300px">
               <h5 class="TituloCarrusel">Serie 1000</h5>
               <p>Gráficas de gama baja focalizadas en un uso diario</p>
             </div>
             <div class="carousel-item text-center">
-              <img src="Imagenes/Serie 3000.png" class="d-block ImagenesCarrusel" alt="..." width="300px" height="300px">
+              <img src="Imagenes/Serie 3000.png" class="ImagenesCarrusel" alt="..." width="300px" height="300px">
               <h5 class="TituloCarrusel">Serie 3000</h5>
               <p>Gráficas más avanzadas de gama media-alta focalizadas en editar/juegos</p>
             </div>
             <div class="carousel-item text-center">
-              <img src="Imagenes/Serie 4000.png" class="d-block ImagenesCarrusel" alt="..." width="300px" height="300px">
+              <img src="Imagenes/Serie 4000.png" class="ImagenesCarrusel" alt="..." width="300px" height="300px">
               <h5 class="TituloCarrusel">Serie 4000</h5>
               <p>Gráficas de última gama focalizadas en juegos</p>
             </div>
@@ -85,12 +85,12 @@
 
     <!-- Sección artículos destacados -->
     <section id="seccion3">
-      <div class="row container-fluid" id="artículos">
+      <div class="row" id="artículos">
         <h3 id="Enunciado2" class="text-center">Artículos destacados del último mes</h3>
         
         <!-- Primer artículo -->
-        <div class="card col-lg-2 col-md-4 col-sm-12" style="width: 12rem;">
-          <img src="Imagenes/RTX3070.jpg" alt="..." width="150px" height="150px">
+        <div class="card col-lg-2 col-md-4 col-sm-6">
+          <img src="Imagenes/RTX3070.jpg" alt="...">
           <div class="card-body">
             <h5 class="card-title text-center">rtx 3070</h5>
           </div>
@@ -100,8 +100,8 @@
         </div>
 
         <!-- Segundo artículo -->
-        <div class="card col-lg-2 col-md-4 col-sm-12" style="width: 12rem;">
-          <img src="Imagenes/RTX3050.jpg" alt="..." width="150px" height="150px">
+        <div class="card col-lg-2 col-md-4 col-sm-6">
+          <img src="Imagenes/RTX3050.jpg" alt="...">
           <div class="card-body">
             <h5 class="card-title text-center">rtx 3050</h5>
           </div>
@@ -111,8 +111,8 @@
         </div>
 
         <!-- Tercer artículo -->
-        <div class="card col-lg-2 col-md-4 col-sm-12" style="width: 12rem;">
-          <img src="Imagenes/GTX1080.jpg" alt="..." width="150px" height="150px">
+        <div class="card col-lg-2 col-md-4 col-sm-6">
+          <img src="Imagenes/GTX1080.jpg" alt="...">
           <div class="card-body">
             <h5 class="card-title text-center">gtx 1080</h5>
           </div>
@@ -122,8 +122,8 @@
         </div>
 
         <!-- Cuarto artículo -->
-        <div class="card col-lg-2 col-md-4 col-sm-12" style="width: 12rem;">
-          <img src="Imagenes/RTX2080.jpg" alt="..." width="150px" height="150px">
+        <div class="card col-lg-2 col-md-4 col-sm-6">
+          <img src="Imagenes/RTX2080.jpg" alt="...">
           <div class="card-body">
             <h5 class="card-title text-center">rtx 2080</h5>
           </div>
@@ -133,8 +133,8 @@
         </div>
 
         <!-- Quinto artículo -->
-        <div class="card col-lg-2 col-md-4 col-sm-12" style="width: 12rem;">
-          <img src="Imagenes/RTX3080.jpg" alt="..." width="150px" height="150px">
+        <div class="card col-lg-2 col-md-4 col-sm-6">
+          <img src="Imagenes/RTX3080.jpg" alt="...">
           <div class="card-body">
             <h5 class="card-title text-center">rtx 3080</h5>
           </div>
@@ -144,8 +144,8 @@
         </div>
 
         <!-- Sexto artículo -->
-        <div class="card col-lg-2 col-md-4 col-sm-12" style="width: 12rem;">
-          <img src="Imagenes/RTX2060.jpg" alt="..." width="150px" height="150px">
+        <div class="card col-lg-2 col-md-4 col-sm-6">
+          <img src="Imagenes/RTX2060.jpg" alt="...">
           <div class="card-body">
             <h5 class="card-title text-center">rtx 2060</h5>
           </div>
@@ -155,5 +155,27 @@
         </div>
       </div>
     </section>
+
+    <!-- Pie de página -->
+    <footer id="footer">
+      <div class="row">
+        <div class="text-center col-lg-6 col-md-6 col-sm-3">
+            <p>Si tienes alguna duda, no dudes en contactarnos</p>
+            <a href="mailto:nvidia@gmail.com"><i class="fa-solid fa-envelope fa-xl redes"></i></a>
+            <a href="https://github.com/AdrianQuevedoMarquezz/LND-Adrian-UT4"><i class="fa-brands fa-github fa-xl redes"></i></a>
+        </div>
+        <div class="text-center col-lg-6 col-md-6 col-sm-3">
+            <p>Síguenos en nuestras redes</p>
+            <a href="https://twitter.com/NVIDIAGeForce"><i class="fa-brands fa-twitter fa-xl redes"></i></a>
+            <a href="https://www.facebook.com/NVIDIA/?locale=es_LA"><i class="fa-brands fa-facebook fa-xl redes"></i></a>
+            <a href="https://www.instagram.com/nvidia/?hl=es"><i class="fa-brands fa-instagram fa-xl redes"></i></a>
+        </div>
+      </div>
+      <div class="text-center">
+          <a href="#header"><img src="Imagenes/descarga.png" height="70px" width="120px"></a>
+          <p>Política de privacidad | Legal | Accesibilidad | Contactar | Políticas de empresa</p>
+          <p id="copyright">Copyright © 2023 NVIDIA Corporation</p>
+      </div>
+    </footer>
 </body>
 </html>
