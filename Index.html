@@ -1,181 +1,236 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <title>Actividad evaluacion UT4</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <!-- Link a css -->
-    <link rel="stylesheet" type="text/css" href="Estilos/estilos.css">
-    <!-- Favicon -->
-    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA2bEhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREQAAAAERERERAAAAEREREREAAAEREREREQAAERERERERAAEREREREREAEREREREREQEREREREREREREREREREREREREREREREREREBEREREREREAEREREREREAAREREREREAABEREREREAAAEREREREAAAAREREREAAAABEREH8AAAB+AAAAfAAAAHgAAABwAAAAYAAAAEAAAAAAAAAAAAAAAAIAAAAGAAAADgAAAB4AAAA+AAAAfgAAAP4AAA" rel="icon" type="image/x-icon" />
-    <!-- Link tipo letra -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
-    <!-- Paleta usada: https://colorhunt.co/palette/191a191e51284e9f3dd8e9a8 -->
-    <!-- Link logos -->
-    <script src="https://kit.fontawesome.com/185bea6af5.js" crossorigin="anonymous"></script>
+  <title>Actividad evaluacion UT4</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- Link a css -->
+  <link rel="stylesheet" type="text/css" href="Estilos/estilos.css">
+  <!-- Favicon -->
+  <link
+    href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA2bEhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREQAAAAERERERAAAAEREREREAAAEREREREQAAERERERERAAEREREREREAEREREREREQEREREREREREREREREREREREREREREREREREBEREREREREAEREREREREAAREREREREAABEREREREAAAEREREREAAAAREREREAAAABEREH8AAAB+AAAAfAAAAHgAAABwAAAAYAAAAEAAAAAAAAAAAAAAAAIAAAAGAAAADgAAAB4AAAA+AAAAfgAAAP4AAA"
+    rel="icon" type="image/x-icon" />
+  <!-- Link tipo letra -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+  <!-- Paleta usada: https://colorhunt.co/palette/191a191e51284e9f3dd8e9a8 -->
+  <!-- Link logos -->
+  <script src="https://kit.fontawesome.com/185bea6af5.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    
-    <!-- Encabezado -->
-    <header id="header">
-        <div class="container-fluid" id="CajaHeader">
-          <nav class="navbar-expand-xl navbar navbar-brand">
-                <a href="file:///C:/Users/Adrian%20Quevedo/Documents/GitHub/LND-Adrian-UT4/Index.html" class="nav-link" id="Nvidia">Nvidia</a>
-                <a href="file:///C:/Users/Adrian%20Quevedo/Documents/GitHub/LND-Adrian-UT4/Index.html"><img src="Imagenes/descarga.png" height="70px" width="120px"></a>
-                <button type="button" class="navbar-toggler ColorHamburguesa" data-bs-target="#hamburguesa" data-bs-toggle="collapse" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div id="hamburguesa" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="navbar-item MargenEncabezado"><a href="#seccion2" class="nav-link Encabezado">Sobre nosotros <i class="fa-solid fa-person iconos1"></i></a></li>
-                        <li class="navbar-item MargenEncabezado"><a href="#seccion1" class="nav-link Encabezado">Productos <i class="fa-solid fa-shop iconos1"></i></a></li>
-                        <li class="navbar-item MargenEncabezado"><a href="#seccion3" class="nav-link Encabezado">Destacados <i class="fa-solid fa-tag iconos1"></i></a></li>
-                        <li class="navbar-item MargenEncabezado"><a href="#footer" class="nav-link Encabezado">Ayuda <i class="fa-solid fa-question iconos1"></i></a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
-    
-    <!-- Carrousel imágenes -->
-    <section id="seccion1">
-      <h3 id="Enunciado1" class="text-center">Sobre nuestros productos</h3>
-        <div id="carouselExample" class="carousel slide">
-          <div class="carousel-inner">
-            <div class="carousel-item active text-center">
-              <img src="Imagenes/Serie 1000.png" class="ImagenesCarrusel" alt="..." width="300px" height="300px">
-              <h5 class="TituloCarrusel">Serie 1000</h5>
-              <p>Gráficas de gama baja focalizadas en un uso diario</p>
-            </div>
-            <div class="carousel-item text-center">
-              <img src="Imagenes/Serie 3000.png" class="ImagenesCarrusel" alt="..." width="300px" height="300px">
-              <h5 class="TituloCarrusel">Serie 3000</h5>
-              <p>Gráficas más avanzadas de gama media-alta focalizadas en editar/juegos</p>
-            </div>
-            <div class="carousel-item text-center">
-              <img src="Imagenes/Serie 4000.png" class="ImagenesCarrusel" alt="..." width="300px" height="300px">
-              <h5 class="TituloCarrusel">Serie 4000</h5>
-              <p>Gráficas de última gama focalizadas en juegos</p>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-    </section>
-    
-    <!-- Sección información -->
-    <section id="seccion2">
-        <div class="container-fluid row">
-            <div class="col-lg-6 col-md-12 col-sm-12 text-center">
-              <h4 class="parrafo1">Nuestra Historia</h4>
-              <p>Todo comenzó en 1993 al crear nuestra empresa, fundada por Jensen Huang, Chris Malachowsky y Curtis Priem. Dos años después Nvidia lanza su primer producto. En 2007 Nvidia gana un premio a empresa del año, un logro... ...hasta llegar a 2023.</p> 
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 text-center">
-              <h4 class="parrafo1">¿Quiénes somos?</h4>
-              <p>Somos una empresa dedicada principalmente a la creación de tarjetas gráficas, interfaces de programación de aplicaciones para ciencia de datos y computación de alto rendimiento, a su vez de diseñar unidades de sistema en chip, entre otras cosas.</p>
-            </div>
-        </div>
-    </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 
-    <!-- Sección artículos destacados -->
-    <section id="seccion3">
-      <div class="row" id="artículos">
-        <h3 id="Enunciado2" class="text-center">Artículos destacados del último mes</h3>
-        
-        <!-- Primer artículo -->
-        <div class="card col-lg-2 col-md-4 col-sm-6">
-          <img src="Imagenes/RTX3070.jpg" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">rtx 3070</h5>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item text-center">A partir de 600€</li>
+  <!-- Encabezado -->
+  <header id="header">
+    <div class="container-fluid" id="CajaHeader">
+      <nav class="navbar-expand-xl navbar navbar-brand">
+        <a href="#header" class="nav-link" id="Nvidia">Nvidia</a>
+        <a href="#header"><img src="Imagenes/descarga.png" height="70px" width="120px"></a>
+        <button type="button" class="navbar-toggler ColorHamburguesa" data-bs-target="#hamburguesa"
+          data-bs-toggle="collapse" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+          aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div id="hamburguesa" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="navbar-item MargenEncabezado"><a href="#seccion2" class="nav-link Encabezado">Sobre nosotros <i
+                  class="fa-solid fa-person iconos1"></i></a></li>
+            <li class="navbar-item MargenEncabezado"><a href="#seccion1" class="nav-link Encabezado">Productos <i
+                  class="fa-solid fa-shop iconos1"></i></a></li>
+            <li class="navbar-item MargenEncabezado"><a href="#seccion3" class="nav-link Encabezado">Destacados <i
+                  class="fa-solid fa-tag iconos1"></i></a></li>
+            <li class="navbar-item MargenEncabezado"><a href="#footer" class="nav-link Encabezado">Ayuda <i
+                  class="fa-solid fa-question iconos1"></i></a></li>
           </ul>
         </div>
+      </nav>
+    </div>
+  </header>
 
-        <!-- Segundo artículo -->
-        <div class="card col-lg-2 col-md-4 col-sm-6">
-          <img src="Imagenes/RTX3050.jpg" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">rtx 3050</h5>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item text-center">A partir de 300€</li>
-          </ul>
+  <!-- Carrousel imágenes -->
+  <section id="seccion1">
+    <h3 id="Enunciado" class="text-center">Sobre nuestros productos</h3>
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active text-center" data-bs-interval="10000">
+          <img src="Imagenes/Serie 1000.png" class="ImagenesCarrusel" alt="..." width="300px" height="300px">
+          <h5 class="TituloCarrusel">Serie 1000</h5>
+          <p>Gráficas de gama baja focalizadas en un uso diario</p>
         </div>
-
-        <!-- Tercer artículo -->
-        <div class="card col-lg-2 col-md-4 col-sm-6">
-          <img src="Imagenes/GTX1080.jpg" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">gtx 1080</h5>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item text-center">A partir de 200€</li>
-          </ul>
+        <div class="carousel-item text-center" data-bs-interval="10000">
+          <img src="Imagenes/Serie 3000.png" class="ImagenesCarrusel" alt="..." width="300px" height="300px">
+          <h5 class="TituloCarrusel">Serie 3000</h5>
+          <p>Gráficas más avanzadas de gama media-alta focalizadas en editar/juegos</p>
         </div>
-
-        <!-- Cuarto artículo -->
-        <div class="card col-lg-2 col-md-4 col-sm-6">
-          <img src="Imagenes/RTX2080.jpg" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">rtx 2080</h5>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item text-center">A partir de 600€</li>
-          </ul>
-        </div>
-
-        <!-- Quinto artículo -->
-        <div class="card col-lg-2 col-md-4 col-sm-6">
-          <img src="Imagenes/RTX3080.jpg" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">rtx 3080</h5>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item text-center">A partir de 1000€</li>
-          </ul>
-        </div>
-
-        <!-- Sexto artículo -->
-        <div class="card col-lg-2 col-md-4 col-sm-6">
-          <img src="Imagenes/RTX2060.jpg" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">rtx 2060</h5>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item text-center">A partir de 400€</li>
-          </ul>
+        <div class="carousel-item text-center" data-bs-interval="10000">
+          <img src="Imagenes/Serie 4000.png" class="ImagenesCarrusel" alt="..." width="300px" height="300px">
+          <h5 class="TituloCarrusel">Serie 4000</h5>
+          <p>Gráficas de última gama focalizadas en juegos</p>
         </div>
       </div>
-    </section>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
 
-    <!-- Pie de página -->
-    <footer id="footer">
-      <div class="row">
-        <div class="text-center col-lg-6 col-md-6 col-sm-3">
-            <p>Si tienes alguna duda, no dudes en contactarnos</p>
-            <a href="mailto:nvidia@gmail.com"><i class="fa-solid fa-envelope fa-xl redes"></i></a>
-            <a href="https://github.com/AdrianQuevedoMarquezz/LND-Adrian-UT4"><i class="fa-brands fa-github fa-xl redes"></i></a>
+  <!-- Sección información -->
+  <section id="seccion2">
+    <div class="container-fluid row">
+      <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+        <h4 class="parrafo1">Nuestra Historia</h4>
+        <p id="NuestraHistoria">Todo comenzó en 1993 al crear nuestra empresa, fundada por Jensen Huang, Chris
+          Malachowsky y Curtis Priem. Dos años después Nvidia lanza su primer producto. En 2007 Nvidia gana un premio a
+          empresa del año, un logro... ...hasta llegar a 2023.</p>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+        <h4 class="parrafo1">¿Quiénes somos?</h4>
+        <p id="QuienesSomos">Somos una empresa dedicada principalmente a la creación de tarjetas gráficas, interfaces de
+          programación de aplicaciones para ciencia de datos y computación de alto rendimiento, a su vez de diseñar
+          unidades de sistema en chip, entre otras cosas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección artículos destacados -->
+  <section id="seccion3">
+    <div class="row" id="artículos">
+      <h3 id="Enunciado2" class="text-center">Artículos destacados del último mes</h3>
+
+      <!-- Primer artículo -->
+      <div class="card col-lg-2 col-md-4 col-sm-6">
+        <img src="Imagenes/RTX3070.jpg" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">rtx 3070</h5>
         </div>
-        <div class="text-center col-lg-6 col-md-6 col-sm-3">
-            <p>Síguenos en nuestras redes</p>
-            <a href="https://twitter.com/NVIDIAGeForce"><i class="fa-brands fa-twitter fa-xl redes"></i></a>
-            <a href="https://www.facebook.com/NVIDIA/?locale=es_LA"><i class="fa-brands fa-facebook fa-xl redes"></i></a>
-            <a href="https://www.instagram.com/nvidia/?hl=es"><i class="fa-brands fa-instagram fa-xl redes"></i></a>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item text-center">A partir de 600€</li>
+        </ul>
+      </div>
+
+      <!-- Segundo artículo -->
+      <div class="card col-lg-2 col-md-4 col-sm-6">
+        <img src="Imagenes/RTX3050.jpg" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">rtx 3050</h5>
         </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item text-center">A partir de 300€</li>
+        </ul>
+      </div>
+
+      <!-- Tercer artículo -->
+      <div class="card col-lg-2 col-md-4 col-sm-6">
+        <img src="Imagenes/GTX1080.jpg" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">gtx 1080</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item text-center">A partir de 200€</li>
+        </ul>
+      </div>
+
+      <!-- Cuarto artículo -->
+      <div class="card col-lg-2 col-md-4 col-sm-6">
+        <img src="Imagenes/RTX2080.jpg" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">rtx 2080</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item text-center">A partir de 600€</li>
+        </ul>
+      </div>
+
+      <!-- Quinto artículo -->
+      <div class="card col-lg-2 col-md-4 col-sm-6">
+        <img src="Imagenes/RTX3080.jpg" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">rtx 3080</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item text-center">A partir de 1000€</li>
+        </ul>
+      </div>
+
+      <!-- Sexto artículo -->
+      <div class="card col-lg-2 col-md-4 col-sm-6">
+        <img src="Imagenes/RTX2060.jpg" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">rtx 2060</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item text-center">A partir de 400€</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección barra -->
+  <section id="seccion4">
+    <h3 id="Enunciado3" class="text-center">Cantidad de artículos en venta</h3>
+    <p class="text-center">Hemos estado mirando las estadísticas de artículos comprados de estos últimos años y te lo
+      traemos para que veas la evolución.</p>
+    <div id="DivBarra" class="progress barra" role="progressbar" aria-label="Animated striped example"
+      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 49%">2020</div>
+    </div>
+    <br>
+    <div id="DivBarra" class="progress barra" role="progressbar" aria-label="Animated striped example"
+      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 57%">2021</div>
+    </div>
+    <br>
+    <div id="DivBarra" class="progress barra" role="progressbar" aria-label="Animated striped example"
+      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 73%">2022</div>
+    </div>
+    <br>
+    <div id="DivBarra" class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
+      aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 86%">2023</div>
+    </div>
+  </section>
+
+  <!-- Sección vídeo -->
+  <section id="seccion5">
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/J5q3AlBfg2w"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </section>
+
+  <!-- Pie de página -->
+  <footer id="footer">
+    <div class="row">
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"></div>
+      <div class="text-center col-lg-6 col-md-6 col-sm-3">
+        <p>Háblanos y visualiza nuestros trabajos</p>
+        <a href="mailto:nvidia@gmail.com"><i class="fa-solid fa-envelope fa-xl redes"></i></a>
+        <a href="https://github.com/AdrianQuevedoMarquezz/LND-Adrian-UT4"><i
+          class="fa-brands fa-github fa-xl redes"></i></a></p>
+      </div>
+      <div class="text-center col-lg-6 col-md-6 col-sm-3">
+        <p>También podrás contactar con nosotros</p>
+        <a href="https://twitter.com/NVIDIAGeForce"><i class="fa-brands fa-twitter fa-xl redes"></i></a>
+        <a href="https://www.instagram.com/nvidia/?hl=es"><i class="fa-brands fa-instagram fa-xl redes"></i></a>
+        <a href="https://www.facebook.com/NVIDIA/?locale=es_LA"><i class="fa-brands fa-facebook fa-xl redes"></i></a>
       </div>
       <div class="text-center">
-          <a href="#header"><img src="Imagenes/descarga.png" height="70px" width="120px"></a>
-          <p>Política de privacidad | Legal | Accesibilidad | Contactar | Políticas de empresa</p>
-          <p id="copyright">Copyright © 2023 NVIDIA Corporation</p>
+        <a href="#header"><img src="Imagenes/descarga.png" height="70px" width="120px"></a>
+        <p>Política de privacidad | Legal | Accesibilidad | Contactar | Políticas de empresa</p>
+        <p id="copyright">Copyright © 2023 NVIDIA Corporation</p>
       </div>
-    </footer>
+    </div>
+    </div>
+  </footer>
 </body>
+
 </html>
