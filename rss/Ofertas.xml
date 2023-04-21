@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>Ofertas del último mes</title>
-        <link>https://adrianquevedomarquezz.github.io/LND-Adrian-UT4/Index.html</link>
+        <link>https://adrianquevedomarquezz.github.io/LND-Adrian-UT4/</link>
         <description>Ofertas</description>
         <!-- Item 1 -->
         <item>
@@ -12,7 +12,7 @@
             <description>Nueva oferta, la gráfica 3080 reduce en un 10%.</description>
             <enclosure url="https://m.media-amazon.com/images/I/81lBqpfoncS._AC_SX450_.jpg"
             length="200" type="image/jpg"></enclosure>
-            <pubDate>Jueves, 20 abril 2023 9:14:00 AM</pubDate>
+            <pubDate>21/04/23</pubDate>
         </item>
         <!-- Item 2 -->
         <item>
@@ -22,7 +22,7 @@
             <description>Nueva oferta, la gráfica 1080 reduce en un 15%.</description>
             <enclosure url="https://m.media-amazon.com/images/I/617iD8v1WjL._AC_UF894,1000_QL80_.jpg"
             length="200" type="image/jpg"></enclosure>
-            <pubDate>Jueves, 20 abril 2023 9:14:00 AM</pubDate>
+            <pubDate>21/04/23</pubDate>
         </item>
         <!-- Item 3 -->
         <item>
@@ -32,7 +32,7 @@
             <description>Nueva oferta, la gráfica 2080 reduce en un 12%.</description>
             <enclosure url="https://img.pccomponentes.com/articles/22/222504/1.jpg"
             length="200" type="image/jpg"></enclosure>
-            <pubDate>Jueves, 20 abril 2023 9:14:00 AM</pubDate>
+            <pubDate>21/04/23</pubDate>
         </item>
     </channel>
 </rss>

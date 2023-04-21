@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>Novedades del úlimo mes</title>
-        <link>https://adrianquevedomarquezz.github.io/LND-Adrian-UT4/Index.html</link>
+        <link>https://adrianquevedomarquezz.github.io/LND-Adrian-UT4/</link>
         <description>Novedades</description>
         <!-- Item 1 -->
         <item>
@@ -12,7 +12,7 @@
             <description>Nuevo icono</description>
             <enclosure url="https://img.freepik.com/vector-premium/icono-circulo-usuario-anonimo-ilustracion-vector-estilo-plano-sombra_520826-1931.jpg"
             length="200" type="image/jpg"></enclosure>
-            <pubDate>Jueves, 20 abril 2023 9:14:00 AM</pubDate>
+            <pubDate>21/04/23</pubDate>
         </item>
         <!-- Item 2 -->
         <item>
@@ -22,7 +22,7 @@
             <description>Nuevos departamentos</description>
             <enclosure url="https://www.vilapress.cat/multimedia/images/2917101.jpg"
             length="200" type="image/jpg"></enclosure>
-            <pubDate>Jueves, 20 abril 2023 9:14:00 AM</pubDate>
+            <pubDate>21/04/23</pubDate>
         </item>
         <!-- Item 3 -->
         <item>
@@ -32,7 +32,7 @@
             <description>10 empleados se nos unen para ayudarnos en nuestros avances</description>
             <enclosure url="https://www.nvidia.com/content/dam/en-zz/es_es/Solutions/Foundation/foundation-report/foundation-report-fy18-project-inspire-843-ud@2x.jpg"
             length="200" type="image/jpg"></enclosure>
-            <pubDate>Jueves, 20 abril 2023 9:14:00 AM</pubDate>
+            <pubDate>21/04/23</pubDate>
         </item>
     </channel>
 </rss>
